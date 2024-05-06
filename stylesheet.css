@@ -1,0 +1,38 @@
+﻿/* paleta 
+.color1 {color: #2e302d;} verde escuro
+.color2 {color: #436454;} verde acizentado
+.color3 {color: #00c35d;} verde folha
+.color4 {color: #cce869;} verde limão
+.color5 {color: #ffffb9;} verde amarelo clarinho
+*/
+body{
+    background: url("imagens/forg-fundo.png");
+    font: 12px verdana;
+    align-content: center;
+}
+.div-login{
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cce869;
+    color:#2e302d;
+    width: 50%;
+    height: 50%;
+    align-content: center;
+   
+}
+.div-content{
+    margin: auto ;
+    padding: 5%;
+
+}
+button{
+    margin-top: 5%;
+    background-color: #00c35d;
+    border-radius: 20px 20px 20px 20px;
+    border-color: #00c35d;
+    font: 12px verdana;
+}
+
