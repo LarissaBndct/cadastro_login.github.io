@@ -6,7 +6,7 @@
 .color5 {color: #ffffb9;} verde amarelo clarinho
 */
 body{
-    background: url("imagens/forg-fundo.png");
+    background: url("imagens/forg-fundo2.png");
     font: 12px verdana;
     align-content: center;
 }
@@ -23,16 +23,26 @@ body{
     align-content: center;
    
 }
-.div-content{
-    margin: auto ;
-    padding: 5%;
+.div-itens{
+    margin-top: 8%;
+}
+.div-interna{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 button{
-    margin-top: 5%;
     background-color: #00c35d;
     border-radius: 20px 20px 20px 20px;
-    border-color: #00c35d;
+    border-color: transparent;
+    border-bottom-color: #00c35d;
     font: 12px verdana;
 }
-
+input{
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: #ffffb9;
+    width: 80%;
+}
