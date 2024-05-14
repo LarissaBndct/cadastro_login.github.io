@@ -18,31 +18,37 @@ body{
     transform: translate(-50%, -50%);
     background-color: #cce869;
     color:#2e302d;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
     align-content: center;
-   
+    box-shadow: 4px 4px 8px 1px #044724;
 }
-.div-itens{
-    margin-top: 8%;
-}
-.div-interna{
+/*(.div-interna{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-}
-button{
-    background-color: #00c35d;
-    border-radius: 20px 20px 20px 20px;
-    border-color: transparent;
-    border-bottom-color: #00c35d;
-    font: 12px verdana;
-}
-input{
+}*/
+.campo-login{
     border-radius: 30px;
     border-color: transparent;
     background-color: #ffffb9;
-    width: 80%;
+    width: 100%;
+}
+button{
+    border-color: #00c35d;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: #00c35d;
+}
+form{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.botoes{
+    margin-left: 60%;
 }
