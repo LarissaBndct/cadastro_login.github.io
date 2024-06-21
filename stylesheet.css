@@ -37,6 +37,7 @@ body{
     width: 100%;
 }
 button{
+    position: relative;
     border-color: #00c35d;
     height: 70px;
     width: 70px;
@@ -49,6 +50,7 @@ form{
     flex-direction: column;
     gap: 5px;
 }
-.botoes{
-    margin-left: 60%;
+h1{
+    margin-bottom: 0%;
+    align-self: center;
 }
