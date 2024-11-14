@@ -1,0 +1,84 @@
+﻿/* Paleta de Cores */
+.color1 { color: #2e302d; } /* Verde escuro */
+.color2 { color: #436454; } /* Verde acinzentado */
+.color3 { color: #00c35d; } /* Verde folha */
+.color4 { color: #cce869; } /* Verde limão */
+.color5 { color: #ffffb9; } /* Verde amarelo clarinho */
+
+body {
+    background: url("imagens/forg-fundo2.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.div-login, .menu-container {
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cce869;
+    color: #2e302d;
+    width: 30%;
+    min-width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px 1px #044724;
+}
+
+.div-interna {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.campo-login {
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffb9;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #00a94d;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centralizando os botões */
+    gap: 30%; /* Espaço entre os botões */
+    flex-wrap: nowrap; /* Manter os botões na mesma linha */
+}
+button {
+    position: relative;
+    border-color: #00c35d;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: #00c35d;
+    max-width: 70px;
+    max-height: 70px;
+    min-height: 40px;
+    min-width: 40px;
+    flex-shrink: 0; 
+}

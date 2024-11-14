@@ -1,26 +1,27 @@
 ﻿<!DOCTYPE html>
-
 <html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title> Forg | Login</title>
+    <title>Forg | Login</title>
     <link rel="shortcut icon" href="imagens/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"><link/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="div-login">
         <div class="div-interna">
-            <form>
+            <form onsubmit="login(event)">
                 <h2 style="margin: 0%;">Login</h2>
                 <p>Digite seus dados para acessar</p>
-                <input class="campo-login" type="E-mail" placeholder="Digite seu e-mail">
-                <input class="campo-login" type="password" placeholder="Digite sua senha">
+                <input class="campo-login" type="email" id="username" placeholder="Digite seu e-mail" required>
+                <input class="campo-login" type="password" id="password" placeholder="Digite sua senha" required>
                 <div class="button-container">
-                    <button>Login</button>
-                    <button>Cadastrar</button>
+                    <button type="submit">Login</button>
+                    <button type="button" onclick="window.location.href='cadastro.html'">Cadastrar</button>
                 </div>
+                <p class="error-message" id="error-message"></p>
             </form>
         </div>
-    </div> 
+    </div>
+    <script src="login.js"></script>
 </body>
-</html> 
+</html>
