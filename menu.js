@@ -3,7 +3,7 @@ function continuarJogo() {
 }
 
 function novoJogo() {
-    alert("Novo jogo não implementado ainda.");
+    window.location.href = "game.html";
 }
 
 function opcoes() {
